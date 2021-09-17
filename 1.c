@@ -9,9 +9,12 @@ Input a temperature (in Centigrade): 45
 int main()
 {
     float centigrade,fahrenheit;
-    printf(" Input a temperature (in Centigrade):  "); //input
+     //input
+    printf(" Input a temperature (in Centigrade):  ");
     scanf("%f", &centigrade);
-    fahrenheit=(centigrade*9/5)+32; //formula
-    printf(" fahrenheit= %f", fahrenheit); //output
+    //formula
+    fahrenheit=(centigrade*9/5)+32; 
+    //output
+    printf(" fahrenheit= %f", fahrenheit); 
     return 0;
 }
