@@ -10,30 +10,30 @@ int main()
     char alphabet,a,e,i,o,u;
 	//input--------------------------
     printf("Test Data= ");
-    scanf("%s", &alphabet);
+    scanf("%c", &alphabet);
 	//condtion and output-------------------------
     if 
-    (alphabet == 'a')
+    (alphabet == a)
     {
         printf(" The alphabet is vowel ", alphabet);
     }
     else if 
-    (alphabet == 'e')
+    (alphabet == e)
     {
         printf(" The alphabet is vowel ", alphabet);
     }
     else if 
-    (alphabet == 'i')
+    (alphabet == i)
     {
         printf(" The alphabet is vowel ", alphabet);
     }
     else if 
-    (alphabet == 'o')
+    (alphabet == o)
     {
         printf(" The alphabet is vowel ", alphabet);
     }
     else if 
-    (alphabet = 'u')
+    (alphabet = u)
     {
         printf(" The alphabet is vowel  ", alphabet);
     }
